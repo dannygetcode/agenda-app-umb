@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Permite HTTP solo al host del emulador -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <!-- si usas otro host interno, añádelo aquí -->
+        <!-- <domain>10.0.3.2</domain> -->
+        <!-- <domain>localhost</domain> -->
+    </domain-config>
+</network-security-config>
